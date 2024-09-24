@@ -11,15 +11,15 @@ Step 2: Add a new module if there is not one already.
 
 Step 3: Enter or copy and paste the following code:
 
-Sub UnhideAllSheets()
+    Sub UnhideAllSheets()
 
-    Dim ws As Worksheet
+        Dim ws As Worksheet
 
-    For Each ws In ActiveWorkbook.Worksheets
-        ws.Visible = xlSheetVisible
-    Next ws
+        For Each ws In ActiveWorkbook.Worksheets
+            ws.Visible = xlSheetVisible
+        Next ws
 
-End Sub
+    End Sub
 
 Step 4: Close Visual Basic
 
